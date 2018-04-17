@@ -1,0 +1,33 @@
+stopLoss = 0
+
+[SMA]
+long = 1000
+short = 50
+
+[BULL]
+rsi = 10
+high = 90
+low = 50
+mod_high = 5
+mod_low = -5
+
+[BEAR]
+rsi = 15
+high = 50
+low = 10
+mod_high = 5
+mod_low  = -5
+
+[ADX]
+adx = 3
+high = 70
+low = 50
+
+[bbands]
+TimePeriod = 20
+NbDevUp = 2
+NbDevDn = 2
+
+[BBtrend]
+bullPersistence = 9
+bearPersistence = 9
