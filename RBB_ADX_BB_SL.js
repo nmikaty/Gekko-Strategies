@@ -30,12 +30,11 @@ var strat = {
 	init: function()
 	{
 		// core
-		this.name = 'RSI Bull and Bear + ADX + BB';
+		this.name = 'RSI Bull and Bear + ADX + BB + SL';
 		this.requiredHistory = config.tradingAdvisor.historySize;
 		this.resetTrend();
 
 	    // BB
-	    this.name = 'BB';
 	    this.nsamples = 0;
 	    this.BBtrend = {
 	      zone: 'none',  // none, top, high, low, bottom
