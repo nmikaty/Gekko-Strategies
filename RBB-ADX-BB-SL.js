@@ -3,20 +3,25 @@
 	1. Use different RSI-strategies depending on a longer trend
 	2. But modify this slighly if shorter BULL/BEAR is detected
 	-
+	12 feb 2017
+	-
 	(CC-BY-SA 4.0) Tommie Hansen
 	https://creativecommons.org/licenses/by-sa/4.0/
-	-
-	NOTE: Requires custom indicators found here:
-	https://github.com/Gab0/Gekko-extra-indicators
-	(c) Gabriel Araujo
-	Howto: Download + add to gekko/strategies/indicators
+
+    Merge of BBRSI, BB - BradT7
+
+    BBRSI - https://github.com/atselevich/gekko/blob/develop/strategies/BBRSI.js
+
+    BB strategy - okibcn 2018-01-03 - https://github.com/askmike/gekko/pull/1623
+
+	17 avr 2018:
+	Rewritten by nmikaty to include Long and Short orders + trailing stop loss
+
 */
 
 // req's
 var log = require('../core/log.js');
 var config = require('../core/util.js').getConfig();
-
-var BB = require('./indicators/BB.js');
 
 // strategy
 var strat = {
