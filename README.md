@@ -17,6 +17,8 @@ And others behind BB and BBRSI strategies.
 <b>RBB_ADX_BB</b>
 
 A simpler, cleaner rewrite of @BradT7 RSI_BULL_BEAR_ADX_BB: https://gist.github.com/BradT7/48915aa4b9319f7cf0d2686079f1c83b
+
 Based on @tommiehansen RSI_BULL_BEAR_ADX: https://github.com/tommiehansen/gekko_tools/tree/master/strategies
+
 The .toml parameters are optimized (with japonicus) for longs on BTCUSD, using 5 minutes candles from April 2017 to April 2018.
 I get better results with this strategy than the origial RSI_BULL_BEAR_ADX.
