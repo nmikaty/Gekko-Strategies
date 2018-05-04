@@ -10,6 +10,13 @@ Based on @tommiehansen RSI_BULL_BEAR_ADX: https://github.com/tommiehansen/gekko_
 The .toml parameters are optimized (with japonicus) for longs on BTCUSD, using 5 minutes candles from April 2017 to April 2018.
 I get better results with this strategy than the origial RSI_BULL_BEAR_ADX.
 
+<b>RBB_ADX2_BB</b>
+
+RBB_ADX_BB with a modified ADX behavior. 
+Better results on 2017-2018 BTCUSD 5 minutes. Lower results on 3 years data.
+
+The .toml parameters are optimized (with japonicus) for longs on BTCUSD, using 5 minutes candles from April 2017 to April 2018.
+
 <b>RBB_ADX_BB_SL</b>
 
 RBB_ADX_BB_SL is a strategy combining strategies previously developped: Bull Bear RSI, with an ADX modifier, a BBand modifier and an optional trailing stop loss.
