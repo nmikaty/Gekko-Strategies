@@ -1,6 +1,6 @@
 /*
 	
-	RSI Bull and Bear + ADX modifier + BBand modifier
+	RSI Bull and Bear + ADX modifier + BBand
 
 	Original from Tommie Hansen:
 		RSI Bull and Bear + ADX modifier
@@ -16,8 +16,10 @@
 		Howto: Download + add to gekko/strategies/indicators
 
 	Modified by nmikaty:
-		3. Adds a BBand modifier: 
-			Buys if price has also been below BBtrend.lowerThreshold for BB.trend.persistence number of candles.
+		3. ADX behavior modification
+			Widen RSI bandwith when ADX high instead of moving the bandwith higher.
+		4. Adds BBand conditions: 
+			Buys if price has also been below BBtrend.lowerThreshold for BBtrend.bull(bear)Persistence number of candles.
 			Sells if price is also above BBtrend.upperThreshold.
 
 */
